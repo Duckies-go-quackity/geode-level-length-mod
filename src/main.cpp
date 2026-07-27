@@ -1,9 +1,9 @@
+#include <Geode/Geode.hpp> // <-- Add this!
 #include <Geode/modify/LevelInfoLayer.hpp>
 #include <Geode/binding/GJGameLevel.hpp>
 #include <Geode/binding/LevelEditorLayer.hpp>
 #include <Geode/binding/GameObject.hpp>
 #include <Geode/binding/GJDifficultySprite.hpp>
-#include <Geode/loader/Mod.hpp>
 #include <vector>
 #include <unordered_map>
 #include <algorithm>
