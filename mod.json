@@ -1,6 +1,6 @@
 {
-    "geode": "5.8.0",
-  "gd": "*",
+    "geode": "v3.0.0",
+    "gd": "*",
     "version": "v1.0.6",
     "id": "com.dukukduk.levellength",
     "name": "Level Length",
