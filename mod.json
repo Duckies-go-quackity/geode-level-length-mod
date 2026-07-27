@@ -1,0 +1,59 @@
+{
+    "geode": "5.8.0",
+  "gd": "*",
+    "version": "v1.0.6",
+    "id": "com.dukukduk.levellength",
+    "name": "Level Length",
+    "developer": "Dukukduk",
+    "description": "Shows the exact playtime length of a level next to its size category (Tiny/Short/Medium/etc).",
+    "settings": {
+        "timer-x-axis-offset": {
+            "name": "Timer - X Axis Offset",
+            "description": "Moves the timer left (negative numbers) or right (positive numbers)",
+            "type": "float",
+            "default": 0.0
+        },
+        "timer-y-axis-offset": {
+            "name": "Timer - Y Axis Offset",
+            "description": "Moves the timer down (negative numbers) or up (positive numbers)",
+            "type": "float",
+            "default": -14.0
+        },
+        "show-object-count": {
+            "name": "Show Object Count",
+            "description": "Shows the level's total object count directly above the length text (Tiny/Short/Medium/etc).",
+            "type": "bool",
+            "default": true
+        },
+        "object-count-x-axis-offset": {
+            "name": "Object Count - X Axis Offset",
+            "description": "Moves the object count left (negative numbers) or right (positive numbers)",
+            "type": "float",
+            "default": 0.0
+        },
+        "object-count-y-axis-offset": {
+            "name": "Object Count - Y Axis Offset",
+            "description": "Moves the object count down (negative numbers) or up (positive numbers)",
+            "type": "float",
+            "default": 0.0
+        },
+        "show-hide-timer-checkbox": {
+            "name": "Show Hide-Timer Checkbox",
+            "description": "Shows a small checkbox below the timer to hide/show it for that specific level (useful for Time Warp/Teleport levels with inaccurate times). Turn this off to remove the checkbox entirely.",
+            "type": "bool",
+            "default": true
+        },
+        "checkbox-x-axis-offset": {
+            "name": "Checkbox - X Axis Offset",
+            "description": "Moves the hide-timer checkbox left (negative numbers) or right (positive numbers)",
+            "type": "float",
+            "default": 0.0
+        },
+        "checkbox-y-axis-offset": {
+            "name": "Checkbox - Y Axis Offset",
+            "description": "Moves the hide-timer checkbox down (negative numbers) or up (positive numbers)",
+            "type": "float",
+            "default": 0.0
+        }
+    }
+}
