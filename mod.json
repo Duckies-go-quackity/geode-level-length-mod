@@ -1,6 +1,6 @@
 {
-    "geode": "5.8.0",
-    "gd": "*",
+    "geode": "3.4.0",
+    "gd": "2.204",
     "version": "v1.0.6",
     "id": "com.dukukduk.levellength",
     "name": "Level Length",
@@ -39,7 +39,7 @@
         },
         "show-hide-timer-checkbox": {
             "name": "Show Hide-Timer Checkbox",
-            "description": "Shows a small checkbox below the timer to hide/show it for that specific level (useful for Time Warp/Teleport levels with inaccurate times). Turn this off to remove the checkbox entirely.",
+            "description": "Shows a small checkbox below the timer to hide/show it for that specific level. Turn this off to remove the checkbox entirely.",
             "type": "bool",
             "default": true
         },
